@@ -82,6 +82,7 @@ ul {
   border-bottom: 1px solid #fff
 }
 
+
 .waiter-ul li a {
   top: 0;
   z-index: 2;
@@ -136,6 +137,7 @@ ul {
 .waiter-ul li.wuyou-shop a {
   background-image: -webkit-linear-gradient(left, #f60, #ffb443);
   background-image: -moz-linear-gradient(left, #f60, #ffb443);
+  font-size: 16px !important;
   background-image: -ms-linear-gradient(left, #f60, #ffb443)
 }
 
@@ -1578,12 +1580,13 @@ textarea:focus {
 
 /*----- slick arrow style end -----*/
 /* ----scroll to top css start ----*/
-.scroll-top {
-  bottom: 50px;
+/* .scroll-top {
+  bottom: 38px;
   cursor: pointer;
   height: 50px;
   position: fixed;
   right: 20px;
+  left: 20px;
   text-align: center;
   width: 50px;
   z-index: 9999;
@@ -1594,13 +1597,13 @@ textarea:focus {
   background-color: #2ba6e1;
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
           box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
-}
-
+} */
+/* 
 .scroll-top i {
   line-height: 50px;
   color: #fff;
   font-size: 25px;
-}
+} */
 
 .scroll-top.not-visible {
   bottom: -50px;
@@ -1608,9 +1611,9 @@ textarea:focus {
   opacity: 0;
 }
 
-.scroll-top:hover {
+/* .scroll-top:hover {
   background-color: #151515;
-}
+} */
 
 /* ----scroll to top css end ----*/
 @-webkit-keyframes fadeInUp {
